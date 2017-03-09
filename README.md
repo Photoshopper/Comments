@@ -2,13 +2,13 @@
 
 ## Installation
 
-1. Put a module in "Modules" folder
-2. Run commands:
-`php artisan module:update comments`
-`php artisan module:migrate comments`
-`php artisan module:publish comments`
-`php artisan vendor:publish --provider="Greggilbert\Recaptcha\RecaptchaServiceProvider"`
-3. Add `RECAPTCHA_PUBLIC_KEY` and `RECAPTCHA_PRIVATE_KEY` in `.env` file
+1. Put a module in "Modules" folder  
+2. Run commands:  
+`php artisan module:update comments`  
+`php artisan module:migrate comments`  
+`php artisan module:publish comments`  
+`php artisan vendor:publish --provider="Greggilbert\Recaptcha\RecaptchaServiceProvider"`  
+3. Add `RECAPTCHA_PUBLIC_KEY` and `RECAPTCHA_PRIVATE_KEY` in `.env` file  
 4. Give permissions to the module.
 
 ## Usage

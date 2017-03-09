@@ -13,7 +13,7 @@
 
 ## Usage
 
-{!! Comment::render($model) !}}`
+`{!! Comment::render($model) !}}`
 
 You can change max depth of a comment tree by passing an extra parameter (by default: 3)
 

@@ -21,5 +21,6 @@ You can change max depth of a comment tree by passing an extra parameter (by def
 
 ## Methods
 
-`{!! Comment::count($model) !!}` - return a number of comments in a model
+`{!! Comment::count($model) !!}` - return a number of comments in a model  
+
 `{!! Comment::getUsername($user_id) !!}` - return user's full name

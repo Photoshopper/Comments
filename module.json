@@ -1,0 +1,20 @@
+{
+    "name": "Comments",
+    "alias": "comments",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Comments\\Providers\\CommentsServiceProvider",
+        "Modules\\Comments\\Providers\\RouteServiceProvider",
+        "Greggilbert\\Recaptcha\\RecaptchaServiceProvider"
+    ],
+    "aliases":{
+      "Comment": "Modules\\Comments\\Facades\\CommentFacade",
+      "Recaptcha": "Greggilbert\\Recaptcha\\Facades\\Recaptcha"
+    },
+    "files": [
+        
+    ]
+}

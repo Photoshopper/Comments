@@ -1,0 +1,35 @@
+{
+	"name": "alex/comments",
+	"description": "",
+    "type": "asgard-module",
+    "license": "MIT", 
+    "require": {
+        "php": ">=5.6",
+        "composer/installers": "~1.0",
+        "idavoll/core-module": "~2.0",
+        "greggilbert/recaptcha": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "orchestra/testbench": "~3.2"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Comments\\": ".",
+            "Modules\\": "Modules/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+	"authors": [
+		{
+			"name": "Aleksandr Denysiuk",
+			"email": "info@art-alex.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Modules\\Comments\\": ""
+		}
+	}
+}

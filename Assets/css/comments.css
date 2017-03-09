@@ -1,0 +1,115 @@
+.comment-form {
+    margin-bottom: 10px;
+}
+
+.comment-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.comment-list li {
+    padding: 20px 0 10px 0;
+}
+
+.comment-content {
+    position: relative;
+}
+
+.comment-list .avatar {
+    float: left;
+    margin-right: 14px;
+}
+
+.comment-list .avatar img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.comment-list .author {
+    color: #262626;
+    font-weight: bold;
+}
+
+.comment-list .time-ago {
+    font-size: 13px;
+    margin-left: 6px;
+    color: #adadad;
+}
+
+.comment-group {
+    position: relative;
+}
+
+.comment-message {
+    padding: 5px 0;
+    line-height: 1.7;
+}
+
+.comment-list .reply {
+    font-size: 13px;
+    color: #899eb8;
+}
+
+.comment-list.children {
+    display: block;
+}
+
+.comment-list.children.last li {
+    margin-left: 0 !important;
+}
+
+.comment-list.children li {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.comment-list .reply {
+    padding-bottom: 10px;
+}
+
+.comment-list .glyphicon-share-alt {
+    font-size: 12px;
+    color: #adadad;
+}
+
+.textarea-counter {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    color: #adadad;
+    font-size: 13px;
+}
+
+.g-recaptcha .has-error {height: auto !important; }
+
+@media (min-width: 768px) {
+    .comment-body,
+    .comment-list.children li,
+    .comment-list.children .alert {
+        margin-left: 80px;
+    }
+
+    .comment-list.children .comment-body,
+    .comment-list.children .comment-list.children li,
+    .comment-list.children .comment-list.children .alert {
+        margin-left: 55px;
+    }
+
+    .comment-list.children .avatar img {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comment-list .avatar img {
+        width: 36px;
+        height: 36px;
+    }
+    #textarea-counter {
+        top: 0;
+        bottom: auto;
+    }
+}
